@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="일정 확인"
+        android:textSize="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="날짜 : "
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/checkDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="시간 : "
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/checkTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="위치 : "
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/checkLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:text="내용 : "
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/checkContext"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:textSize="25dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/schedule_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"
+            />
+        <Button
+            android:id="@+id/schedule_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수정"
+            />
+
+
+
+    </LinearLayout>
+
+<!-- fragment 뭔가 이상한듯.. 고쳐보자 -->
+<!--    <fragment
+        android:name="com.example.rtse.japantourguide.schedule.MapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:id="@+id/schedule_MAP"
+        />
+-->
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/RTSE/AndroidStudioProjects/JapanTourGuide/app/src/main/res/layout/schedule_check.xml -->
